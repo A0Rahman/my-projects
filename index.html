@@ -17,6 +17,7 @@
             <label for="price-to" class="header__search-form__to-price__label">to</label>
             <input type="number" name="" class="header__search-form__to-price" id="price-to" placeholder="1000">
             <select name="" id="search-selector" class="header__search-form__selector">
+                <option value=""></option>
                 <option value="realme">realme</option>
                 <option value="oppo">oppo</option>
                 <option value="xiaome">xiaome</option>
@@ -32,48 +33,33 @@
             <button id="btn-search" class="header__search-form__btn">search</button>
         </form>
     </header>
-    <div class="resault-container" id="resault-container">
-
-    </div>
-    <aside class="aside">
-        <form action="" class="aside__creation-form">
-            <label for="c-name" class="aside__creation-form__name__label">name</label>
-            <input type="text" class="aside__creation-form__name" id="c-name">
-            <label for="price" class="aside__creation-form__price__label">Price</label>
-            <input type="text" class="aside__creation-form__price" id="price">            
-            <select name="" id="creation-selector" class="aside__creation-form__selector">
-                <option value="realme">realme</option>
-                <option value="oppo">oppo</option>
-                <option value="xiaome">xiaome</option>
-                <option value="apple">apple</option>
-                <option value="nokia">nokia</option>
-                <option value="samsung">samsung</option>
-                <option value="huawie">huawie</option>
-                <option value="lenovo">lenovo</option>
-                <option value="redmi">redmi</option>
-                <option value="nillkin">nillkin</option>
-            </select>
-            
-            <button id="btn-create" class="aside__creation-form__btn">create</button>
-        </form>
-        <div class="aside-container" id="aside-container">
-            <div class="card" id="card">
-                <h3>samsung galaxy z1</h3>
-                <h3>1000$</h3>
-            </div>
-
+    <div class="big-container">
+        <div class="resault-container" id="resault-container">
         </div>
-    </aside>
-
-
-
-
-
-
-
-
-
-
+        <aside class="aside">
+            <form action="" class="aside__creation-form">
+                <label for="c-name" class="aside__creation-form__name__label">name</label>
+                <input type="text" class="aside__creation-form__name" id="c-name">
+                <label for="price" class="aside__creation-form__price__label">Price</label>
+                <input type="text" class="aside__creation-form__price" id="price">            
+                <select name="" id="creation-selector" class="aside__creation-form__selector">
+                    <option value="realme">realme</option>
+                    <option value="oppo">oppo</option>
+                    <option value="xiaome">xiaome</option>
+                    <option value="apple">apple</option>
+                    <option value="nokia">nokia</option>
+                    <option value="samsung">samsung</option>
+                    <option value="huawie">huawie</option>
+                    <option value="lenovo">lenovo</option>
+                    <option value="redmi">redmi</option>
+                    <option value="nillkin">nillkin</option>
+                </select>
+                
+                <button id="btn-create" class="aside__creation-form__btn">create</button>
+            </form>
+            <div class="aside-container" id="aside-container"></div>
+        </aside>
+    </div>
     <script src="asset/js/main.js"></script>
 </body>
 </html>

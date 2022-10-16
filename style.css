@@ -1,0 +1,116 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    height: auto;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: aqua;
+    align-items: center;
+    padding:0 30px;
+}
+.header__title{
+    width: 30%;
+    
+}
+.header__search-form{
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    height: fit-content;
+    line-height: 30px;
+    justify-content: flex-end;
+    font-size: 1.15rem;
+}
+.header__search-form__from-price,
+.header__search-form__to-price
+{
+    width: 8%;
+
+}
+.header__search-form__from-price__label,
+.header__search-form__to-price__label
+{
+    margin:0 5px;
+    font-weight: bold;
+}
+.header__search-form__selector{
+    margin:0 10px;
+    width: 20%;
+}
+.header__search-form__mname-search{
+    width: 30%;
+    justify-self: flex-end;
+    margin-right: 20px;
+}
+.big-container{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.resault-container{
+    width: 75%;
+    min-height: 90vh;
+    background-color: purple;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.aside{
+    width: 25%;
+    min-height: 90vh;
+    background-color: yellow;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 5px;
+}
+.aside__creation-form{
+    width: 100%;
+    height: 30%;
+    padding: 30px 5px;
+}
+.aside__creation-form__price__label,
+.aside__creation-form__name__label{
+    width: 20%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.aside-container{
+    width: 100%;
+    min-height: 60vh;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+}
+.aside-container>.card{
+    display: block;
+}
+.aside__creation-form__name{
+width: 80%;
+margin-bottom: 10px;
+}
+.aside__creation-form__price{
+    width: fit-content;
+    margin-bottom: 10px;
+}
+.aside__creation-form__btn{
+margin-left: 50px;
+}
+
+
+.card{
+    width: 150px;
+    height: 200px;
+    padding: 10px 6px;
+    margin: 5px;
+    text-align: center;
+    display: none;
+    background-color: orange;
+}
+.card.active{
+display: block;
+}
